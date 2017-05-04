@@ -1,7 +1,7 @@
 ! Base16 Circus
 ! Scheme: Stephan Boyer (https://github.com/stepchowfun) and Esther Wang (https://github.com/ewang12)
 
-#define base00 #171717
+#define base00 #191919
 #define base01 #202020
 #define base02 #303030
 #define base03 #5f5a60
@@ -11,7 +11,7 @@
 #define base07 #ffffff
 #define base08 #dc657d
 #define base09 #4bb1a7
-#define base0A #d4b261
+#define base0A #bfb767
 #define base0B #84b97c
 #define base0C #4bb1a7
 #define base0D #639ee4

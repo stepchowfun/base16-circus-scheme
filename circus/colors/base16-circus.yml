@@ -3,20 +3,20 @@
 colors:
   # Default colors
   primary:
-    background: '0x171717'
+    background: '0x191919'
     foreground: '0xa7a7a7'
 
   # Colors the cursor will use if `custom_cursor_colors` is true
   cursor:
-    text: '0x171717'
+    text: '0x191919'
     cursor: '0xa7a7a7'
 
   # Normal colors
   normal:
-    black:   '0x171717'
+    black:   '0x191919'
     red:     '0xdc657d'
     green:   '0x84b97c'
-    yellow:  '0xd4b261'
+    yellow:  '0xbfb767'
     blue:    '0x639ee4'
     magenta: '0xb888e2'
     cyan:    '0x4bb1a7'

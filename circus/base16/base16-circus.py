@@ -12,7 +12,7 @@ from pygments.token import (Keyword, Name, Comment, String, Error, Text,
 # See http://chriskempson.com/projects/base16/ for a description of the role
 # of the different colors in the base16 palette.
 
-base00 = '#171717'
+base00 = '#191919'
 base01 = '#202020'
 base02 = '#303030'
 base03 = '#5f5a60'
@@ -22,7 +22,7 @@ base06 = '#808080'
 base07 = '#ffffff'
 base08 = '#dc657d'
 base09 = '#4bb1a7'
-base0A = '#d4b261'
+base0A = '#bfb767'
 base0B = '#84b97c'
 base0C = '#4bb1a7'
 base0D = '#639ee4'
