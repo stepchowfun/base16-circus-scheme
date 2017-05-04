@@ -3,7 +3,7 @@
 ## Circus scheme by Stephan Boyer (https://github.com/stepchowfun) and Esther Wang (https://github.com/ewang12)
 
 %sh{
-    base00='rgb:171717'
+    base00='rgb:191919'
     base01='rgb:202020'
     base02='rgb:303030'
     base03='rgb:5f5a60'
@@ -13,7 +13,7 @@
     base07='rgb:ffffff'
     base08='rgb:dc657d'
     base09='rgb:4bb1a7'
-    base0A='rgb:d4b261'
+    base0A='rgb:bfb767'
     base0B='rgb:84b97c'
     base0C='rgb:4bb1a7'
     base0D='rgb:639ee4'

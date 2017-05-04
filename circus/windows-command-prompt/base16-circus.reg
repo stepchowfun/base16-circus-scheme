@@ -4,7 +4,7 @@ Windows Registry Editor Version 5.00
 ; Scheme: Stephan Boyer (https://github.com/stepchowfun) and Esther Wang (https://github.com/ewang12)
 
 [HKEY_CURRENT_USER\Console]
-"ColorTable00"=dword:00171717 ; base00
+"ColorTable00"=dword:00191919 ; base00
 "ColorTable01"=dword:00e49e63 ; base0D
 "ColorTable02"=dword:007cb984 ; base0B
 "ColorTable03"=dword:00a7b14b ; base0C

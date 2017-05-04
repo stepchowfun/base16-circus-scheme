@@ -7,7 +7,7 @@
   -->
 
   <!-- main colors, skipping one of attributes (backgroud/foreground) will use color from here -->
-  <style name="Text" foreground="#a7a7a7" background="#171717"/>
+  <style name="Text" foreground="#a7a7a7" background="#191919"/>
 
   <!-- it will be underlined by default -->
   <style name="Link"/>
@@ -39,7 +39,7 @@
   <style name="Label" foreground="#dc657d"/>
 
   <!-- types, classes -->
-  <style name="Type" foreground="#d4b261"/>
+  <style name="Type" foreground="#bfb767"/>
   <style name="PrimitiveType" foreground="#b888e2"/>
 
   <!-- functions, methods -->
@@ -78,20 +78,20 @@
   <style name="DiffFile" foreground="#b888e2"/>
   <style name="DiffLocation" foreground="#639ee4"/>
   <style name="AddedLine" foreground="#84b97c"/>
-  <style name="RemovedLine" foreground="#d4b261"/>
+  <style name="RemovedLine" foreground="#bfb767"/>
   <style name="LogChangeLine" foreground="#dc657d"/>
 
   <!-- side-by-side diff -->
   <style name="DiffFileLine" foreground="#b888e2"/>
   <style name="DiffContextLine" foreground="#639ee4"/>
   <style name="DiffSourceLine" foreground="#84b97c"/>
-  <style name="DiffSourceChar" foreground="#d4b261" background="#202020"/>
+  <style name="DiffSourceChar" foreground="#bfb767" background="#202020"/>
   <style name="DiffDestLine" foreground="#84b97c"/>
-  <style name="DiffDestChar" foreground="#d4b261" background="#202020"/>
+  <style name="DiffDestChar" foreground="#bfb767" background="#202020"/>
 
   <!-- errors, warnings -->
   <style name="Error" underlineColor="#dc657d" underlineStyle="SingleUnderline"/>
   <style name="ErrorContext" underlineColor="#dc657d" underlineStyle="DotLine"/>
-  <style name="Warning" underlineColor="#d4b261" underlineStyle="SingleUnderline"/>
-  <style name="WarningContext" underlineColor="#d4b261" underlineStyle="DotLine"/>
+  <style name="Warning" underlineColor="#bfb767" underlineStyle="SingleUnderline"/>
+  <style name="WarningContext" underlineColor="#bfb767" underlineStyle="DotLine"/>
 </style-scheme>

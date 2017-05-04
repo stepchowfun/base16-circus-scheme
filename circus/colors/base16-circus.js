@@ -2,7 +2,7 @@
 // Scheme: Stephan Boyer (https://github.com/stepchowfun) and Esther Wang (https://github.com/ewang12)
 
 var color_scheme = {
-        'base00': '#171717',
+        'base00': '#191919',
         'base01': '#202020',
         'base02': '#303030',
         'base03': '#5f5a60',
@@ -12,7 +12,7 @@ var color_scheme = {
         'base07': '#ffffff',
         'base08': '#dc657d',
         'base09': '#4bb1a7',
-        'base0A': '#d4b261',
+        'base0A': '#bfb767',
         'base0B': '#84b97c',
         'base0C': '#4bb1a7',
         'base0D': '#639ee4',
