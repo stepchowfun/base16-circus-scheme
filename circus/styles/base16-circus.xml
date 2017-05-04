@@ -39,7 +39,7 @@
   <style name="Label" foreground="#dc657d"/>
 
   <!-- types, classes -->
-  <style name="Type" foreground="#bfb767"/>
+  <style name="Type" foreground="#c3ba63"/>
   <style name="PrimitiveType" foreground="#b888e2"/>
 
   <!-- functions, methods -->
@@ -78,20 +78,20 @@
   <style name="DiffFile" foreground="#b888e2"/>
   <style name="DiffLocation" foreground="#639ee4"/>
   <style name="AddedLine" foreground="#84b97c"/>
-  <style name="RemovedLine" foreground="#bfb767"/>
+  <style name="RemovedLine" foreground="#c3ba63"/>
   <style name="LogChangeLine" foreground="#dc657d"/>
 
   <!-- side-by-side diff -->
   <style name="DiffFileLine" foreground="#b888e2"/>
   <style name="DiffContextLine" foreground="#639ee4"/>
   <style name="DiffSourceLine" foreground="#84b97c"/>
-  <style name="DiffSourceChar" foreground="#bfb767" background="#202020"/>
+  <style name="DiffSourceChar" foreground="#c3ba63" background="#202020"/>
   <style name="DiffDestLine" foreground="#84b97c"/>
-  <style name="DiffDestChar" foreground="#bfb767" background="#202020"/>
+  <style name="DiffDestChar" foreground="#c3ba63" background="#202020"/>
 
   <!-- errors, warnings -->
   <style name="Error" underlineColor="#dc657d" underlineStyle="SingleUnderline"/>
   <style name="ErrorContext" underlineColor="#dc657d" underlineStyle="DotLine"/>
-  <style name="Warning" underlineColor="#bfb767" underlineStyle="SingleUnderline"/>
-  <style name="WarningContext" underlineColor="#bfb767" underlineStyle="DotLine"/>
+  <style name="Warning" underlineColor="#c3ba63" underlineStyle="SingleUnderline"/>
+  <style name="WarningContext" underlineColor="#c3ba63" underlineStyle="DotLine"/>
 </style-scheme>
