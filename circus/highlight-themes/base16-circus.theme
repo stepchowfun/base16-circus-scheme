@@ -19,8 +19,8 @@ Interpolation  = Escape
 
 Keywords = {
   { Colour="#dc657d", Bold=true},
-  { Colour="#bfb767"},
+  { Colour="#c3ba63"},
   { Colour="#639ee4"},
-  { Colour="#bfb767"},
-  { Colour="#bfb767" }
+  { Colour="#c3ba63"},
+  { Colour="#c3ba63" }
 }

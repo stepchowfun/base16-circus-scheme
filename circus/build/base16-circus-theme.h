@@ -14,7 +14,7 @@ static const char *colorname[] = {
   "#202020", /* base01 */
   "#dc657d", /* base08 */
   "#84b97c", /* base0B */
-  "#bfb767", /* base0A */
+  "#c3ba63", /* base0A */
   "#639ee4", /* base0D */
   "#b888e2", /* base0F */
   "#4bb1a7", /* base0C */
