@@ -13,7 +13,7 @@
     base07='rgb:ffffff'
     base08='rgb:dc657d'
     base09='rgb:4bb1a7'
-    base0A='rgb:bfb767'
+    base0A='rgb:c3ba63'
     base0B='rgb:84b97c'
     base0C='rgb:4bb1a7'
     base0D='rgb:639ee4'
