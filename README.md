@@ -2,7 +2,7 @@
 
 A [Base16](https://github.com/chriskempson/base16) color scheme by [Stephan Boyer](https://github.com/stepchowfun) and [Esther Wang](https://github.com/ewang12).
 
-![Screenshot](https://raw.githubusercontent.com/stepchowfun/base16-circus-scheme/master/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/stepchowfun/base16-circus-scheme/main/screenshot.png)
 
 ## Build dependencies
 
