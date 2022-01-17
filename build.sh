@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -eu -o pipefail
+set -euo pipefail
 
 rm -rf base16-builder-ruby
 git clone https://github.com/obahareth/base16-builder-ruby.git
