@@ -4,7 +4,12 @@
 # Base16 Prompt Toolkit template by Carlos Pita (carlosjosepita@gmail.com
 # Circus scheme by Stephan Boyer (https://github.com/stepchowfun) and Esther Wang (https://github.com/ewang12)
 
-from prompt_toolkit.terminal.vt100_output import _256_colors
+try:
+  # older than v2
+  from prompt_toolkit.output.vt100 import _256_colors
+except ModuleNotFoundError:
+  # version 2
+  from prompt_toolkit.formatted_text.ansi import _256_colors
 from pygments.style import Style
 from pygments.token import (Keyword, Name, Comment, String, Error, Text,
                             Number, Operator, Literal, Token)
@@ -50,7 +55,7 @@ class Base16Style(Style):
         Error: '%s bold' % base08,
         Comment: base03,
         Keyword: base0E,
-        Keyword.Constant: base0D,
+        Keyword.Constant: base09,
         Keyword.Namespace: base0D,
         Name.Builtin: base0D,
         Name.Function: base0D,
@@ -58,7 +63,7 @@ class Base16Style(Style):
         Name.Decorator: base0E,
         Name.Exception: base08,
         Number: base09,
-        Operator.Word: base0D,
+        Operator: base0E,
         Literal: base0B,
         String: base0B
     }

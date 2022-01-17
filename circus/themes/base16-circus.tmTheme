@@ -132,6 +132,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Labels</string>
+			<key>scope</key>
+			<string>entity.name.label</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b888e2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Classes</string>
 			<key>scope</key>
 			<string>support.class, entity.name.class, entity.name.type.class</string>
@@ -360,7 +371,7 @@
 			<key>name</key>
 			<string>Link Text</string>
 			<key>scope</key>
-      <string>string.other.link, punctuation.definition.string.end.markdown</string>
+      <string>string.other.link, punctuation.definition.string.end.markdown, punctuation.definition.string.begin.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
