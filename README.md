@@ -4,19 +4,13 @@ A [Base16](https://github.com/chriskempson/base16) color scheme by [Stephan Boye
 
 ![Screenshot](https://raw.githubusercontent.com/stepchowfun/base16-circus-scheme/main/screenshot.png)
 
-## Build dependencies
+## Installation instructions
 
-You don't need to build the theme yourself if you just want to use it as is, since the compiled files are already included in this repository. If you want to modify the theme and rebuild it, you will need:
+You can install Circus for various programs using the tools listed [here](https://github.com/chriskempson/base16#template-repositories). For example, you might use [base16-shell](https://github.com/chriskempson/base16-shell) and [base16-vim](https://github.com/chriskempson/base16-vim) to install the color scheme for your terminal and Vim, respectively.
 
-- [Ruby 2.3.0+](https://www.ruby-lang.org/en/)
-- [Bundler](http://bundler.io/)
+## Build instructions
 
-Once you have the dependencies, you can build the theme by running `./build.sh` from the root of this repository. A `circus` directory will be created for the compiled theme files.
+You don't need to build the color scheme if you just want to use it as is. If you want to customize the colors, you can build the scheme as follows:
 
-## Installation for `base16-shell` and `base16-vim`
-
-1. Install [base16-shell](https://github.com/chriskempson/base16-shell) and [base16-vim](https://github.com/chriskempson/base16-vim).
-2. Copy the file `circus/scripts/base16-circus.sh` into the `base16-shell/scripts` directory (wherever base16-shell is installed).
-3. Copy the file `circus/colors/base16-circus.vim` into the `base16-vim/colors` directory (wherever your vim plugins are installed).
-4. Reload your shell configuration or start a new shell.
-5. Run `base16_circus` to activate the theme.
+1. Install [Toast](https://github.com/stepchowfun/toast).
+2. Run `toast`. This will generate a `circus` directory containing the color scheme.
