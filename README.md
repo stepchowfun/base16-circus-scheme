@@ -1,6 +1,6 @@
 # Circus
 
-A [Base16](https://github.com/chriskempson/base16) color scheme by [Stephan Boyer](https://github.com/stepchowfun) and [Esther Wang](https://github.com/ewang12).
+A [Base16](https://github.com/chriskempson/base16) color scheme by [Esther Wang](https://github.com/ewang12) and [Stephan Boyer](https://github.com/stepchowfun).
 
 ![Screenshot](https://raw.githubusercontent.com/stepchowfun/base16-circus-scheme/main/screenshot.png)
 
