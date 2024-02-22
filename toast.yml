@@ -1,4 +1,4 @@
-image: ubuntu:20.04
+image: ubuntu:22.04
 user: user
 command_prefix: |
   # Make Bash not silently ignore errors.
@@ -10,14 +10,17 @@ tasks:
     command: |
       # Install the following packages:
       #
-      # - curl - Used for installing Tagref
-      # - git  - Used by base16-builder-ruby
-      # - ruby - Used to build the color scheme.
+      # - curl  - Used for installing Tagref and Composer
+      # - php   - Used by base16-builder-php
+      # - unzip - Used by Composer
+      # - git   - Used by Composer
+      export DEBIAN_FRONTEND=noninteractive
       apt-get update
-      apt-get install --yes curl git ruby
+      apt-get install --yes curl git php unzip
 
-      # Install Bundler.
-      gem install bundler:1.14.6 # Must match the version in `base16-builder-ruby/Gemfile.lock`.
+      # Install Composer (used by base16-builder-php)
+      curl https://getcomposer.org/installer -LSfs -o /tmp/composer-setup.php
+      php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
 
   install_tagref:
     description: Install Tagref, a reference checking tool.
@@ -41,20 +44,21 @@ tasks:
       - create_user
       - install_tagref
     input_paths:
-      - base16-builder-ruby
+      - base16-builder-php
+      - base16-nvim
+      - base16-shell
       - circus.yaml
     output_paths:
       - circus
     command: |
+      # Install the dependencies for base16-builder-php
+      cd base16-builder-php
+      composer install
+
       # Build the color scheme.
-      export GEM_HOME="$HOME/.gem"
-      cd base16-builder-ruby
-      bundle install
-      ./builder update
-      rm -rf schemes
-      mkdir -p schemes/circus
-      cp ../circus.yaml schemes/circus
-      ./builder
-      cd ..
-      rm -rf circus
-      mv base16-builder-ruby/out circus
+      mkdir schemes templates
+      mv ../circus.yaml schemes/
+      cp -R ../base16-nvim/templates/ templates/base16-nvim
+      cp -R ../base16-shell/templates/ templates/base16-shell
+      ./base16-build-all.sh
+      mv output/ ../circus
