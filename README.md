@@ -1,5 +1,7 @@
 # Circus
 
+[![Build status](https://github.com/stepchowfun/base16-circus-scheme/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/stepchowfun/base16-circus-scheme/actions?query=branch%3Amain)
+
 A [Base16](https://github.com/chriskempson/base16) color scheme by [Esther Wang](https://github.com/ewang12) and [Stephan Boyer](https://github.com/stepchowfun).
 
 ![Screenshot](https://raw.githubusercontent.com/stepchowfun/base16-circus-scheme/main/screenshot.png)
