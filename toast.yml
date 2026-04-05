@@ -62,3 +62,18 @@ tasks:
       cp -R ../base16-shell/templates/ templates/base16-shell
       ./base16-build-all.sh
       mv output/ ../circus
+
+  lint:
+    description: Run the linters.
+    dependencies:
+      - create_user
+      - install_tagref
+    input_paths:
+      - .
+    excluded_input_paths:
+      - .git
+      - circus
+    command: |
+      # Check references with Tagref.
+      tagref
+      tagref list-unused --fail-if-any
