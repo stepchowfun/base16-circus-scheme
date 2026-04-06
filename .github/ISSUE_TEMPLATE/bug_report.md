@@ -14,8 +14,8 @@ A clear description of what the bug is.
 A clear explanation of how to reproduce the bug.
 
 **Environment information:**
- - Circus commit: [e.g. 74329093c521844e1737e055845598dec85d48cf]
- - OS: [e.g. macOS Big Sur 11.4 (20F71)]
+ - Circus commit: [e.g., 74329093c521844e1737e055845598dec85d48cf]
+ - OS: [e.g., macOS Tahoe 26.4]
 
 **Additional context**
 Add any other context about the problem here.
